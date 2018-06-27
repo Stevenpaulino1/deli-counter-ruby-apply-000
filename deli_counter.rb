@@ -11,7 +11,6 @@ def line(line)
   end
 end
 
-line(["steven", "mary", "john"])
 
 def take_a_number(line, name)
   line<<(name)

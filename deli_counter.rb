@@ -19,8 +19,8 @@ def take_a_number(line)
   puts "Welcome, You are number #{counter}"
 end
 
-take_a_number(katz)
-take_a_number([1])
+take_a_number(katz_deli)
+take_a_number(katz_deli)
 
 
 def now_serving(line)

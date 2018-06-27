@@ -11,9 +11,9 @@ def line(line)
   end
 end
 
-$counter = 0
+
 def take_a_number(line)
-  
+  $counter = 0
   $counter = $counter + 1
   line<<($counter)
   puts "Welcome, You are number #{$counter}"

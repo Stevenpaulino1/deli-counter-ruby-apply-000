@@ -12,7 +12,7 @@ def line(line)
 end
 
 
-def take_a_number(line, name)
+def take_a_number(line)
   line<<(name)
   puts "Welcome, #{name}. You are number #{line.length} in line."
 end

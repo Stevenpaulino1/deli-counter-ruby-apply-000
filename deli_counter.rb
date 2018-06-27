@@ -19,6 +19,10 @@ def take_a_number(line)
   puts "Welcome, You are number #{counter}"
 end
 
+take_a_number(katz)
+take_a_number([1])
+
+
 def now_serving(line)
   if line != []
     puts "Currently serving #{line.shift}."

@@ -1,4 +1,4 @@
-katz_deli = []
+katz_deli = [] #empty 
 def line(line)
   if line == []
     puts "The line is currently empty."

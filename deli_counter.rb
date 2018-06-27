@@ -7,7 +7,7 @@ def line(line)
     line.each_with_index do |name, index|
       phrase += " #{index + 1}. #{name}"
     end
-    puts phrase
+    return phrase
   end
 end
 

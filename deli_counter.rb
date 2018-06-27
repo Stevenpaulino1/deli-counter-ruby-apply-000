@@ -13,7 +13,7 @@ end
 
 
 def take_a_number(line)
-  counter = 0
+  $counter = 0
   counter = counter + 1
   line<<(counter)
   puts "Welcome, You are number #{counter}"

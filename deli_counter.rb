@@ -7,7 +7,7 @@ def line(line)
     line.each_with_index do |name, index|
       puts "The line is currently: #{index + 1}. #{name}"
     end
-    puts phrase
+
   end
 end
 

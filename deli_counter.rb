@@ -11,6 +11,8 @@ def line(line)
   end
 end
 
+puts line(["steven", "mary", "john"])
+
 def take_a_number(line, name)
   puts "Welcome, #{name}. You are number #{line.length + 1} in line."
   line<<(name)

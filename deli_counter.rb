@@ -14,8 +14,9 @@ end
 line(["steven", "mary", "john"])
 
 def take_a_number(line, name)
-  puts "Welcome, #{name}. You are number #{line.length + 1} in line."
   line<<(name)
+  puts "Welcome, #{name}. You are number #{line.length + 1} in line."
+  
 end
 def now_serving(line)
   if line != []

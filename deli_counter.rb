@@ -13,8 +13,10 @@ end
 
 
 def take_a_number(line)
-  line<<(name)
-  puts "Welcome, #{name}. You are number #{line.length} in line."
+  counter = 0
+  counter += 1
+  line<<(counter)
+  puts "Welcome, You are number #{counter}"
 end
 
 def now_serving(line)

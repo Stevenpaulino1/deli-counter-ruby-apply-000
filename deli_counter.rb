@@ -7,11 +7,11 @@ def line(line)
     line.each_with_index do |name, index|
       phrase += " #{index + 1}. #{name}"
     end
-    return phrase
+    puts phrase
   end
 end
 
-puts line(["steven", "mary", "john"])
+line(["steven", "mary", "john"])
 
 def take_a_number(line, name)
   puts "Welcome, #{name}. You are number #{line.length + 1} in line."
